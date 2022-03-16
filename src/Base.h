@@ -24,7 +24,8 @@ public:
 
     virtual string toString();
 
-    virtual void do_something() = 0;
+    virtual void doSomething() = 0;
+
 };
 
 
