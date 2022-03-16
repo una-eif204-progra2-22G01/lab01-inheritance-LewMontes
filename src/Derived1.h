@@ -9,7 +9,7 @@
 
 struct Derived1 : Base {
 private:
-    int DerivedNum1;
+    int derivedNum1;
 
 public:
     Derived1(int baseNum, int derivedNum1);

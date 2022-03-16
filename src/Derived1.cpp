@@ -4,14 +4,14 @@
 
 #include "Derived1.h"
 
-Derived1::Derived1(int baseNum, int derivedNum1) : Base(baseNum), DerivedNum1(derivedNum1) {}
+Derived1::Derived1(int baseNum, int derivedNum1) : Base(baseNum), derivedNum1(derivedNum1) {}
 
 int Derived1::getDerivedNum1() const {
-    return DerivedNum1;
+    return derivedNum1;
 }
 
 void Derived1::setDerivedNum1(int derivedNum1) {
-    DerivedNum1 = derivedNum1;
+    derivedNum1 = derivedNum1;
 }
 
 string Derived1::toString() {
