@@ -5,9 +5,26 @@
 #ifndef LAB01_INHERITANCE_BASE_H
 #define LAB01_INHERITANCE_BASE_H
 
+#include <iostream>
+#include <sstream>
+using namespace std;
 
-class Base {
+struct Base {
+private:
+    int baseNum;
 
+public:
+    Base(int baseNum);
+
+    int getBaseNum() const;
+
+    void setBaseNum(int baseNum);
+
+    virtual ~Base();
+
+    virtual string toString();
+
+    virtual void do_something() = 0;
 };
 
 
