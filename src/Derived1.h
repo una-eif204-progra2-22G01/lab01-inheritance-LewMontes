@@ -7,7 +7,7 @@
 
 #include "Base.h"
 
-struct Derived1 : Base {
+class Derived1 : Base {
 private:
     int derivedNum1;
 

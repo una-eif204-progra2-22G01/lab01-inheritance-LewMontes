@@ -9,7 +9,7 @@
 #include <sstream>
 using namespace std;
 
-struct Base {
+class Base {
 private:
     int baseNum;
 
