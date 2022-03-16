@@ -20,9 +20,9 @@ public:
 
     string toString() override;
 
-    virtual ~Derived1();
+    ~Derived1() override;
 
-    virtual void doSomething();
+    void doSomething() override;
 };
 
 

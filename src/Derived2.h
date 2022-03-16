@@ -18,11 +18,11 @@ public:
 
     void setDerivedNum2(int derivedNum2);
 
-    virtual ~Derived2();
+    ~Derived2() override;
 
     string toString() override;
 
-    virtual void doSomething();
+    void doSomething() override;
 };
 
 
