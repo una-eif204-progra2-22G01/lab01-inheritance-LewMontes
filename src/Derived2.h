@@ -12,6 +12,8 @@ private:
     int derivedNum2;
 
 public:
+    Derived2();
+
     Derived2(int baseNum, int derivedNum2);
 
     int getDerivedNum2() const;

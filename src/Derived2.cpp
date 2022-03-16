@@ -4,6 +4,8 @@
 
 #include "Derived2.h"
 
+Derived2::Derived2() : Base(), derivedNum2(2) {}
+
 Derived2::Derived2(int baseNum, int derivedNum2) : Base(baseNum), derivedNum2(derivedNum2) {}
 
 int Derived2::getDerivedNum2() const {

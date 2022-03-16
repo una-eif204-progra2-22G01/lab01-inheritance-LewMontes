@@ -14,6 +14,8 @@ private:
     int baseNum;
 
 public:
+    Base();
+
     Base(int baseNum);
 
     int getBaseNum() const;

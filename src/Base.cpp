@@ -4,6 +4,8 @@
 
 #include "Base.h"
 
+Base::Base() : baseNum(0) {}
+
 Base::Base(int baseNum) : baseNum(baseNum) {}
 
 int Base::getBaseNum() const {
