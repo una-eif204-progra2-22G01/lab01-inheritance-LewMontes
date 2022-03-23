@@ -27,3 +27,7 @@ string Base::toString() {
 
     return s.str();
 }
+
+void Base::doSomething() {
+    cout << "Base!!!" << endl;
+}
